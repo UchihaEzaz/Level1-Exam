@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #494d5f;
+    padding: 0.5vw 2vw;
+}
+.any_img{
+    background-image: url("../image/new.jpg");
+    background-position: top;
+}
+.cas{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 0 10px;
+    background-color: white;
+}
+.swiper {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0.5rem;
+  }
+  .swiper-slide {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.slide1{
+    background-image: url("../image/game1.jpg");
+    background-size: cover;
+}
+.slide2{
+    background-image: url("../image/game2.png");
+    background-size: cover;
+}
+.slide3{
+    background-image: url("../image/game3.jpg");
+    background-size: cover;
+}
+.slide4{
+    background-image: url("../image/game4.jpg");
+    background-size: cover;
+}
+.slide5{
+    background-image: url("../image/game5.jpg");
+    background-size: cover;
+}
+
+@media screen and (max-width:639px){
+    .has{
+        display: none;
+    }
+    .here{
+        width: 90vw;
+    }
+    .ultra{
+        display: none;
+    }
+    .mother{
+        display: none;
+    }
+    
+}
