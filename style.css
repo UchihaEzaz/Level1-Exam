@@ -18,10 +18,7 @@ body{
     background-color: #494d5f;
     padding: 0.5vw 2vw;
 }
-.any_img{
-    background-image: url("../image/new.jpg");
-    background-position: top;
-}
+
 .cas{
     height: 50px;
     display: flex;
@@ -54,27 +51,6 @@ body{
     height: 100%;
     object-fit: cover;
   }
-
-.slide1{
-    background-image: url("../image/game1.jpg");
-    background-size: cover;
-}
-.slide2{
-    background-image: url("../image/game2.png");
-    background-size: cover;
-}
-.slide3{
-    background-image: url("../image/game3.jpg");
-    background-size: cover;
-}
-.slide4{
-    background-image: url("../image/game4.jpg");
-    background-size: cover;
-}
-.slide5{
-    background-image: url("../image/game5.jpg");
-    background-size: cover;
-}
 
 @media screen and (max-width:639px){
     .has{
